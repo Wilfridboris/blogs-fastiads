@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% seo %}
+
+    <!-- Publisher relationship -->
+    <link rel="publisher" href="{{ site.main_site_url }}">
+
+    <!-- Organization JSON-LD: tells Google both domains are the same entity -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "{{ site.main_site_name }}",
+      "url": "{{ site.main_site_url }}",
+      "sameAs": [
+        "{{ site.url }}"
+      ]
+    }
+    </script>
+
+    <!-- Favicons from main site -->
+    <link rel="icon" type="image/x-icon" href="{{ site.main_site_url }}/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.main_site_url }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.main_site_url }}/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="{{ site.main_site_url }}/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

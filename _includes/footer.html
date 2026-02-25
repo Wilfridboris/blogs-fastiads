@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <p>
+      Part of <a href="{{ site.main_site_url }}" rel="publisher">{{ site.main_site_name }}.com</a>
+      &mdash; Performance advertising made fast.
+    </p>
+    <p>
+      <a href="{{ site.main_site_url }}">fastiads.com</a> |
+      <a href="{{ "/" | relative_url }}">Blog</a>
+      {% if site.feed.path %}
+      | <a href="{{ site.feed.path | relative_url }}">RSS</a>
+      {% endif %}
+    </p>
+  </div>
+</footer>

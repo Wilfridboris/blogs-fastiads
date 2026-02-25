@@ -1,0 +1,43 @@
+title: "fastiads Blog"
+description: "The fastiads blog — tips, guides, and insights for performance advertisers"
+url: "https://blogs.fastiads.com"
+baseurl: ""
+lang: "en"
+
+# Cross-linking to main site
+main_site_url: "https://fastiads.com"
+main_site_name: "fastiads"
+
+# Author
+author:
+  name: "fastiads"
+  url: "https://fastiads.com"
+
+# Social (for jekyll-seo-tag twitter cards)
+twitter:
+  username: fastiads
+  card: summary_large_image
+
+# Clean URLs — generates /YYYY/MM/DD/slug/ with no .html
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Feed settings
+feed:
+  path: atom.xml
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
