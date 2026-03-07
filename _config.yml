@@ -27,6 +27,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# Sitemap — exclude utility pages, drafts
+defaults:
+  - scope:
+      path: ""
+    values:
+      sitemap: true
+
 # Feed settings
 feed:
   path: atom.xml
