@@ -32,7 +32,7 @@ layout: default
 
   <footer class="post-footer">
     <p><a href="{{ "/" | relative_url }}">← Back to Blog</a> &nbsp;&bull;&nbsp;
-    <a href="{{ site.main_site_url }}" rel="publisher">← {{ site.main_site_name }}.com</a></p>
+    <a href="{{ page.cta_url | default: site.main_site_url }}" rel="publisher">{{ page.cta_text | default: site.main_site_name }}</a></p>
   </footer>
 
 </article>
