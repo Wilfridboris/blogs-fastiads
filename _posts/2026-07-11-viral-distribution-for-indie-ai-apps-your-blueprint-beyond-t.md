@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Viral Distribution for Indie AI Apps: Your Blueprint Beyond the Build"
-date: 2026-07-11 06:19:55 +0000
+date: 2026-07-11 06:19:28 +0000
 description: "TL;DR: Building AI apps is easier than ever, but distribution is now the hardest part. You must engineer viral loops directly into your product and content, sys"
 tags: ["ai app distribution", "viral marketing", "ugc strategy", "indie saas growth", "lean marketing"]
 ---
