@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "How to Create a Facebook Business Page in 2026 (Complete Setup Guide)"
-date: 2026-02-26 09:00:00 +0000
-categories: [guides, facebook]
-tags: [facebook-business-page, facebook-page, meta-business-suite, social-media-marketing]
-description: "Create a Facebook Business Page the right way in 2026. Step-by-step guide covering setup, key settings most people skip, and common mistakes to avoid."
-author: fastiads
+redirect_to: "https://www.fastiads.com/blog/how-to-create-facebook-business-page-2026"
+sitemap: false
 ---
 
 If you're planning to run ads on Meta — Facebook, Instagram, or Messenger — you need a Facebook Business Page first. There's no shortcut. Meta's advertising system requires a Page to serve as your business identity on every ad placement.

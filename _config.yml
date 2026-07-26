@@ -26,6 +26,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Sitemap — exclude utility pages, drafts
 defaults:
